@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Made by Infernal Studios. Bedrock Port by KiWolf12.",
+		"name": "Infernal Expansion §r§7[Resource Pack]",
+		"uuid": "aaaeafa7-c68e-4aa6-b778-71898d547043",
+		"version": [1, 0, 0],
+        "min_engine_version": [1, 17, 10]
+    },
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "fe57d332-1f38-431a-a432-530653e0b3dd",
+			"version": [1, 0, 0]
+		}
+	]
+}

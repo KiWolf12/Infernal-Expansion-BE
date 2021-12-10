@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Made by Infernal Studios. Bedrock Port by KiWolf12.",
+		"name": "Infernal Expansion §r§7[Behaviour Pack]",
+		"uuid": "c001d3e2-e648-4f55-b88f-e2be9a7c2cfb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 18, 0]
+	},
+	"modules": [
+		{
+			"description": "not-used",
+			"type": "data",
+			"uuid": "47e2e90d-6fa6-4b9f-903e-6c15c9880782",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "aaaeafa7-c68e-4aa6-b778-71898d547043",
+			"version": [1, 0, 0]
+		}
+	]
+}

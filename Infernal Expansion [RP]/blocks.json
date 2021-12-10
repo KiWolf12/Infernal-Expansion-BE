@@ -1,0 +1,56 @@
+{
+	"format_version": [ 1, 1, 0],
+	//Basalt
+	"infernalexpansion:basalt_iron_ore": {
+		"textures": {
+			"up": "basalt_iron_ore_top", 
+			"down": "basalt_iron_ore_top",
+			"side": "basalt_iron_ore_side"
+		},
+		"sound":"basalt"
+	},
+	"infernalexpansion:basalt_bricks": {
+		"textures": "basalt_bricks",
+		"sound": "basalt"
+	},
+	"infernalexpansion:cobbled_basalt": {
+		"textures":"cobbled_basalt",
+		"sound": "basalt"
+	},
+	"infernalexpansion:magmatic_basalt": {
+		"textures": {
+			"up": "basaltic_magma_top", 
+			"down": "basaltic_magma_top",
+			"side": "basaltic_magma_side"
+		},
+		"sound":"basalt"
+	},
+		"infernalexpansion:glowlight_glass": {
+			"textures": "glowlight_glass",
+			"sound": "glass"
+	},
+	"infernalexpansion:luminous_jukebox": {
+		"textures": {
+			"up": "luminous_jukebox_top", 
+			"down": "luminous_jukebox_side",
+			"side": "luminous_jukebox_side"
+		},
+		"sound":"wood"
+	},
+	"infernalexpansion:luminous_jukebox_flush": {
+		"textures": {
+			"up": "luminous_jukebox_top", 
+			"down": "luminous_jukebox_side",
+			"side": "luminous_jukebox_side"
+		},
+		"sound":"wood"
+	},
+	"infernalexpansion:luminous_jukebox_soul_spunk": {
+		"textures": {
+			"up": "luminous_jukebox_top", 
+			"down": "luminous_jukebox_side",
+			"side": "luminous_jukebox_side"
+		},
+		"sound":"wood"
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "infernalexpansion:luminous_jukebox_flush"
+		},
+		"components": {
+			"minecraft:material_instances": {
+                "*": {
+					"texture": "luminous_jukebox_side",
+					"face_dimming": false,
+						  "ambient_occlusion": false
+				},
+				"up": {
+					"texture": "luminous_jukebox_top"
+				},
+				"down": {
+					"texture": "luminous_jukebox_side"
+				}
+			},
+			"minecraft:destroy_time": 0.7,
+			"minecraft:map_color": "#FFC55B",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:on_interact": {
+				"target": "self",
+				"event": "record_flush_stop"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "luminous_jukebox_flush_break",
+				"target": "self"
+			},
+			"minecraft:loot": "loot_tables/blocks/empty.json"
+		},
+		"events": {
+			"record_flush_stop": {
+				"run_command": {
+					"target": "self",
+					"command": [
+						"stopsound @a[r=80]"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/items/record_flush.json"
+				},
+				"set_block": {
+					"block_type": "infernalexpansion:luminous_jukebox"
+				}
+			},
+			"luminous_jukebox_flush_break": {
+				"run_command": {
+					"target": "self",
+					"command": [
+						"stopsound @a[r=80]"
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/luminous_jukebox/luminous_jukebox_flush.json"
+				}
+			}
+		}
+	}
+}

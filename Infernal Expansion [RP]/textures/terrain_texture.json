@@ -1,0 +1,37 @@
+﻿
+{
+  "resource_pack_name": "kiforged minecraft",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    //Basalt
+    "basalt_iron_ore_side": {
+      "textures":"textures/infernal/blocks/basalt/basalt_iron_ore_side"
+    },
+    "basalt_iron_ore_top": {
+      "textures":"textures/infernal/blocks/basalt/basalt_iron_ore_top"
+    },
+    "cobbled_basalt": {
+      "textures":"textures/infernal/blocks/basalt/basalt_cobbled"
+    },
+    "basalt_bricks": {
+      "textures":"textures/infernal/blocks/basalt/basalt_bricks"
+    },
+    "basaltic_magma_side": {
+      "textures":"textures/infernal/blocks/basalt/basaltic_magma_side"
+    },
+    "basaltic_magma_top": {
+      "textures":"textures/infernal/blocks/basalt/basaltic_magma_top"
+    },
+    "glowlight_glass": {
+      "textures":"textures/infernal/blocks/glowlight_glass"
+    },
+    "luminous_jukebox_top": {
+      "textures":"textures/infernal/blocks/luminous_jukebox/luminous_jukebox_top"
+    },
+    "luminous_jukebox_side": {
+      "textures":"textures/infernal/blocks/luminous_jukebox/luminous_jukebox_side"
+    }
+   }
+}

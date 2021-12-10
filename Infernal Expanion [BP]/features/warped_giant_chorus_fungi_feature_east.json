@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "gg:warped_giant_chorus_fungi_feature_east"
+		},
+
+		"structure_name": "gg:warped_giant_chorus_fungi",
+
+		"facing_direction": "east",
+		"adjustment_radius": 0,
+
+		"constraints": {
+			"grounded": {}
+		}
+	}
+}

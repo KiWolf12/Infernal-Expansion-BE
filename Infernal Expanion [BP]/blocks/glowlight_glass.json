@@ -1,0 +1,31 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+      "description": {
+        "identifier": "infernalexpansion:glowlight_glass"
+      },
+      "components": {
+          "minecraft:material_instances": {
+              "*": {
+                  "texture": "glowlight_glass",
+                  "render_method": "blend"
+              }
+         },
+         "minecraft:creative_category": {
+          "category": "Nature"
+        },
+        "minecraft:destroy_time": 0.3,
+        "minecraft:immovable": false,
+        "minecraft:explosion_resistance": 0,
+        "minecraft:loot": "loot_tables/blocks/glowlight_glass.json",
+        "minecraft:rotation": [ 0, 0, 0 ],
+        "minecraft:block_light_absorption": 0,
+        "minecraft:block_light_emission": 0.6,
+        "minecraft:map_color": "#1E1E1E",
+        "minecraft:flammable": {
+          "flame_odds": 0,
+          "burn_odds": 0
+        }
+    }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+	"individual_event_sounds": {
+		"events": {
+			"record.flush": {
+				"sound": "record.flush",
+				"volume": 2,
+				"pitch": 1
+			},
+			"record.soul_spunk": {
+				"sound": "record.soul_spunk",
+				"volume": 2,
+				"pitch": 1
+			}
+		}
+	}
+}

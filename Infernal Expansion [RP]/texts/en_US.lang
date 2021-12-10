@@ -1,0 +1,17 @@
+##Entities
+entity.bioplentia:snail.name=Snail
+item.spawn_egg.entity.bioplentia:snail.name=Spawn Snail
+
+##Items
+item.infernalexpansion:musisc_disc_flush=§bMusic Disc§r §7\nLudoCrypt - Flush
+item.infernalexpansion:music_disc_soul_spunk=§bMusic Disc§r §7\nLudoCrypt - Soul Spunk
+
+##Blocks
+tile.infernalexpansion:luminous_jukebox.name=Luminous Jukebox
+tile.infernalexpansion:luminous_jukebox_soul_spunk.name=Luminous Jukebox
+tile.infernalexpansion:luminous_jukebox_flush.name=Luminous Jukebox
+tile.infernalexpansion:basalt_bricks.name=Basalt Bricks
+tile.infernalexpansion:basalt_iron_ore.name=Basalt Iron Ore
+tile.infernalexpansion:cobbled_basalt.name=Cobbled Basalt
+tile.infernalexpansion:magmatic_basalt.name=Magmatic Basalt
+tile.infernalexpansion:glowlight_glass.name=Glowlight Glass
